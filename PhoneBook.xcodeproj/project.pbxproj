@@ -13,6 +13,11 @@
 		DDA9A77E286F07880084B71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA9A77C286F07880084B71D /* Main.storyboard */; };
 		DDA9A780286F07880084B71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA9A77F286F07880084B71D /* Assets.xcassets */; };
 		DDA9A783286F07880084B71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA9A781286F07880084B71D /* LaunchScreen.storyboard */; };
+		DDA9A78B286F2FF10084B71D /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9A78A286F2FF10084B71D /* ErrorViewController.swift */; };
+		DDA9A78D286F32BB0084B71D /* PhoneBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9A78C286F32BB0084B71D /* PhoneBookTableViewController.swift */; };
+		DDA9A78F286F33C30084B71D /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9A78E286F33C30084B71D /* PersonTableViewCell.swift */; };
+		DDA9A791286F3B3F0084B71D /* AddingNewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9A790286F3B3F0084B71D /* AddingNewContactViewController.swift */; };
+		DDA9A793286F45550084B71D /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9A792286F45550084B71D /* ContactInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		DDA9A77F286F07880084B71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDA9A782286F07880084B71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDA9A784286F07880084B71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA9A78A286F2FF10084B71D /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		DDA9A78C286F32BB0084B71D /* PhoneBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookTableViewController.swift; sourceTree = "<group>"; };
+		DDA9A78E286F33C30084B71D /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		DDA9A790286F3B3F0084B71D /* AddingNewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNewContactViewController.swift; sourceTree = "<group>"; };
+		DDA9A792286F45550084B71D /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				DDA9A77F286F07880084B71D /* Assets.xcassets */,
 				DDA9A781286F07880084B71D /* LaunchScreen.storyboard */,
 				DDA9A784286F07880084B71D /* Info.plist */,
+				DDA9A78A286F2FF10084B71D /* ErrorViewController.swift */,
+				DDA9A78C286F32BB0084B71D /* PhoneBookTableViewController.swift */,
+				DDA9A78E286F33C30084B71D /* PersonTableViewCell.swift */,
+				DDA9A790286F3B3F0084B71D /* AddingNewContactViewController.swift */,
+				DDA9A792286F45550084B71D /* ContactInfoViewController.swift */,
 			);
 			path = PhoneBook;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA9A78F286F33C30084B71D /* PersonTableViewCell.swift in Sources */,
+				DDA9A793286F45550084B71D /* ContactInfoViewController.swift in Sources */,
 				DDA9A77B286F07880084B71D /* ViewController.swift in Sources */,
+				DDA9A78B286F2FF10084B71D /* ErrorViewController.swift in Sources */,
+				DDA9A791286F3B3F0084B71D /* AddingNewContactViewController.swift in Sources */,
+				DDA9A78D286F32BB0084B71D /* PhoneBookTableViewController.swift in Sources */,
 				DDA9A777286F07880084B71D /* AppDelegate.swift in Sources */,
 				DDA9A779286F07880084B71D /* SceneDelegate.swift in Sources */,
 			);
